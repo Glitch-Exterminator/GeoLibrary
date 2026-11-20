@@ -1,6 +1,6 @@
 ﻿namespace GeoLibrary
 {
-	internal class Geometry
+	public class Geometry
 	{
 		public static double GetLength(Vector vector) =>
 			Math.Sqrt(Math.Pow(vector.X, 2) + Math.Pow(vector.Y, 2));
